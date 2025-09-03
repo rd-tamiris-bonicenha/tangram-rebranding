@@ -1,0 +1,85 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[582],{83789:(e,t,n)=>{n.d(t,{Z:()=>m});var r=n(27378),i=n(67468),a=n(33099);const l=i.ZP.div`
+  border: 1px solid var(--neutral-border);
+  border-top-left-radius: var(--border-radius-rounded);
+  border-top-right-radius: var(--border-radius-rounded);
+  margin-bottom: var(--size-spacing-09);
+  overflow: hidden;
+
+  ${e=>{let{$overflowVisible:t}=e;return t&&i.iv`
+      overflow: visible;
+    `}}
+`,o=i.ZP.div`
+  align-items: center;
+  background: var(--neutral-surface-low-emphasis);
+  display: flex;
+  padding: 0.5rem 1rem;
+`,s=i.ZP.div`
+  white-space: nowrap;
+`,c=i.ZP.div`
+  flex: 1 0;
+  margin: 0 1rem 0 0.5rem;
+  border-radius: 12.5px;
+  background-color: #fff;
+  color: #666;
+  padding: 5px 15px;
+  font: 400 13px Arial;
+  user-select: none;
+`,d=i.ZP.div`
+  margin-left: auto;
+`,u=i.ZP.span`
+  margin-right: 6px;
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+`,h=i.ZP.span`
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+`,p=i.ZP.div`
+  margin-bottom: -6px;
+  ${e=>{let{$padding:t}=e;return t&&i.iv`
+      padding: var(--size-spacing-04);
+    `}};
+`;const m=function(e){let{children:t,minHeight:n,url:i,bodyPadding:m,overflowVisible:g}=e;return r.createElement(a.Z,null,(()=>r.createElement(l,{style:{minHeight:n},$overflowVisible:g},r.createElement(o,null,r.createElement(s,null,r.createElement(u,{style:{background:"#f25f58"}}),r.createElement(u,{style:{background:"#fbbe3c"}}),r.createElement(u,{style:{background:"#58cb42"}})),r.createElement(c,null,i),r.createElement(d,null,r.createElement("div",null,r.createElement(h,null),r.createElement(h,null),r.createElement(h,null)))),r.createElement(p,{$padding:!!m},t))))}},38e3:(e,t,n)=>{n.d(t,{D:()=>u,Z:()=>s});var r=n(25773),i=n(27378),a=n(67468),l=n(33099);const o=a.ZP.div`
+  margin-bottom: var(--size-spacing-09);
+
+  & > * {
+    margin-bottom: var(--size-spacing-05);
+  }
+
+  ${e=>{let{$columns:t}=e;return t>=2&&a.iv`
+      display: grid;
+      column-gap: var(--size-spacing-05);
+      row-gap: var(--size-spacing-05);
+      grid-template-columns: repeat(${t}, 1fr);
+
+      & > * {
+        margin-bottom: 0;
+      }
+    `}}
+`;const s=function(e){let{children:t,columns:n=1,...a}=e;return i.createElement(l.Z,null,(()=>i.createElement(o,(0,r.Z)({$columns:n},a),t)))};var c=n(74904);const d=(0,a.ZP)(c.Z)`
+  height: 100%;
+
+  p {
+    &:only-child,
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ${e=>{let{$featured:t}=e;return t&&a.iv`
+      border-color: var(--highlight-border);
+    `}}
+
+  ${e=>{let{$centered:t}=e;return t&&a.iv`
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    `}}
+`;const u=function(e){let{children:t,featured:n=!1,centered:r=!1,className:a}=e;return i.createElement(d,{$featured:n,$centered:r,className:a},t)}},88401:(e,t,n)=>{n.d(t,{Z:()=>o});var r=n(25773),i=n(27378),a=n(81884),l=n(59536);function o(e){let{children:t,...n}=e;return i.createElement(l.Z,(0,r.Z)({as:a.Z},n),t)}},59435:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n(27378).createContext({})},68746:(e,t,n)=>{n.d(t,{Z:()=>a});var r=n(27378),i=n(59435);const a=()=>r.useContext(i.Z)},22015:(e,t,n)=>{n.d(t,{Z:()=>p});var r=n(25773),i=n(30808),a=n(27378),l=(n(23615),n(67468)),o=n(24758),s=n(51951);const c=["children","lineBreak","gap","inline","verticalAlign","horizontalAlign","as"];function d(e){return"string"==typeof e?e:"var(--size-spacing-".concat(e.toString().padStart(2,"0"),")")}const u=l.ZP.div.withConfig({displayName:"InlineGroup__Root",componentId:"sc-1n0xm5v-0"})(["display:flex;flex-direction:row;gap:",";"," ",";"," ",""],(e=>{let{$gap:t}=e;return Array.isArray(t)?t.map(d).join(" "):d(t)}),(e=>{let{$inline:t}=e;return t&&(0,l.iv)(["display:inline-flex;"])}),(e=>{let{$horizontalAlign:t}=e;return t&&(0,l.iv)(["justify-content:",";"],t)}),(e=>{let{$verticalAlign:t}=e;return t&&(0,l.iv)(["align-items:",";"],t)}),(e=>{let{$lineBreak:t}=e;return t&&(0,l.iv)(["flex-wrap:wrap;"])})),h=(0,a.forwardRef)(((e,t)=>{let{children:n,lineBreak:l=!1,gap:o="var(--size-spacing-02)",inline:s=!1,verticalAlign:d=h.verticalAlignments.top,horizontalAlign:p=h.horizontalAlignments.left,as:m="div"}=e,g=(0,i.Z)(e,c);return a.createElement(u,(0,r.Z)({ref:t,as:m,$gap:o,$inline:s,$lineBreak:l,$horizontalAlign:p,$verticalAlign:d},g),n)}));h.displayName="InlineGroup",h.Style=u,h.Item=s.Z,h.horizontalAlignments=o.T,h.verticalAlignments=o.n;const p=h},51951:(e,t,n)=>{n.d(t,{Z:()=>u});var r=n(25773),i=n(30808),a=n(27378),l=(n(23615),n(67468)),o=n(24758);const s=["children","verticalAlign","fluid","as"],c=l.ZP.div.withConfig({displayName:"InlineGroupItem__Root",componentId:"sc-1r2n1hz-0"})(["",";",""],(e=>{let{$verticalAlign:t}=e;return t&&(0,l.iv)(["align-self:",";"],t)}),(e=>{let{$fluid:t}=e;return t&&(0,l.iv)(["flex:1;min-width:0;"])})),d=(0,a.forwardRef)(((e,t)=>{let{children:n,verticalAlign:l,fluid:o=!1,as:d="div"}=e,u=(0,i.Z)(e,s);return a.createElement(c,(0,r.Z)({ref:t,as:d,$verticalAlign:l,$fluid:o},u),n)}));d.displayName="InlineGroupItem",d.Style=c,d.verticalAlignments=o.n;const u=d},24758:(e,t,n)=>{n.d(t,{T:()=>r,n:()=>i});const r={left:"flex-start",center:"center",right:"flex-end"},i={top:"start",center:"center",bottom:"end",baseline:"baseline",stretch:"stretch"}},24044:(e,t,n)=>{n.d(t,{Z:()=>p});var r=n(25773),i=n(30808),a=n(27378),l=(n(23615),n(67468)),o=n(44573),s=n(68746),c=n(12681);const d=["rootRef","className","style","value","defaultValue","prefix","suffix","disabled","required","error","success"],u=(0,l.ZP)(c.Z).withConfig({displayName:"Input__Root",componentId:"sc-2oktpa-0"})([""]),h=(0,a.forwardRef)(((e,t)=>{let{rootRef:n,className:l,style:c,value:h,defaultValue:p,prefix:m,suffix:g,disabled:f=!1,required:v=!1,error:b=!1,success:k=!1}=e,Z=(0,i.Z)(e,d);const w=(0,a.useRef)(null),y=(0,s.Z)(),x=y.required||v,C=y.success||k,E=y.error||b,S=Object.assign({},C||E?{"aria-invalid":E||!C}:{}),z=(0,a.useCallback)((()=>{w.current.focus()}),[]);return a.createElement(u,{ref:n,className:l,style:c,disabled:f,prefix:m,suffix:g,onClick:z},a.createElement("input",(0,r.Z)({},Z,{ref:(0,o.Z)([w,t]),"aria-required":x,disabled:f,value:h,defaultValue:p},S)))}));h.displayName="Input",h.Style=u;const p=h},12681:(e,t,n)=>{n.d(t,{Z:()=>f});var r=n(25773),i=n(30808),a=n(27378),l=n(67468),o=n(48981),s=n(25881),c=n(93399),d=n(22015);const u=["disabled","prefix","suffix","children"],h=(0,l.ZP)(d.Z).attrs({gap:1,verticalAlign:d.Z.verticalAlignments.center}).withConfig({displayName:"InputControl__Prefix",componentId:"sc-1bx7dgp-0"})(["height:calc(var(--input-height) - 2px);> svg{--custom-icon-color:var(--input-icon-color);}","{"," --focus-outline-offset:calc(-1 * var(--size-spacing-01) - 1px);&:hover,&:focus,&:active{&:not(:disabled),&:not([disabled]),&:not([aria-disabled='true']){background-color:transparent;}}}"],s.Z.Style,s.Z.SmallStyle),p=(0,l.ZP)(h).withConfig({displayName:"InputControl__Suffix",componentId:"sc-1bx7dgp-1"})(["",":last-child,",":last-child{margin-right:calc(-1 * (var(--size-spacing-03) - var(--size-spacing-01)));}"],s.Z.Style,c.Z.Style),m=l.ZP.div.withConfig({displayName:"InputControl__Root",componentId:"sc-1bx7dgp-2"})(["--focus-border-radius:var(--border-radius-sm);--input-height:",";--input-border-color:var(--neutral-border-interactive);--input-background-color:var(--neutral-surface);--input-text-color:var(--neutral-text-low-emphasis);--input-value-color:var(--neutral-text-high-emphasis);--input-placeholder-color:var(--neutral-text-low-emphasis);--input-icon-color:var(--neutral-icon-low-emphasis);--input-line-height:calc( var(--input-height) - 2px - (2 * var(--size-spacing-02)) );"," display:flex;gap:var(--size-spacing-02);align-items:center;height:var(--input-height);width:100%;border-radius:var(--border-radius-sm);border:1px solid var(--input-border-color);padding:0 var(--size-spacing-03);color:var(--neutral-text-low-emphasis);background-color:var(--input-background-color);box-shadow:none;&,> input,> input::placeholder,> textarea,> textarea::placeholder{font:var(--text-md-regular);line-height:var(--input-line-height);letter-spacing:-0.01em;}input{height:var(--input-line-height);}input,textarea{display:block;flex:1;margin:0;min-width:0;border:0;padding:0;outline:0;color:var(--input-value-color);background-color:transparent;&::placeholder{color:var(--input-placeholder-color);}::-ms-clear{display:none;width:0;height:0;}::-ms-reveal{display:none;width:0;height:0;}::-webkit-search-decoration,::-webkit-search-cancel-button,::-webkit-search-results-button,::-webkit-search-results-decoration{display:none;}}&:hover,&:focus-within{--input-border-color:var(--neutral-border-interactive-hover);}&[aria-invalid='true'],&:has(*[aria-invalid='true']){&,&:hover{--input-border-color:var(--danger-border);}&:focus-within,&:hover:focus-within{--input-border-color:var(--neutral-border-interactive-hover);}}&[aria-invalid='false'],&:has(*[aria-invalid='false']){&,&:hover{--input-border-color:var(--success-border);}&:focus-within,&:hover:focus-within{--input-border-color:var(--neutral-border-interactive-hover);}}&[aria-disabled='true']{--input-background-color:var(--neutral-surface-disabled);&,&:hover,&:focus,&:focus-within,&:hover:focus,&:hover:focus-within{--input-border-color:var(--neutral-border-interactive-disabled);}}"],"40px",o.Z),g=(0,a.forwardRef)(((e,t)=>{let{disabled:n,prefix:l,suffix:o,children:s}=e,c=(0,i.Z)(e,u);return a.createElement(m,(0,r.Z)({},c,{ref:t,"aria-disabled":n}),l&&a.createElement(h,null,l),s,o&&a.createElement(p,null,o))}));g.displayName="InputControl",g.Style=m;const f=g},13966:(e,t,n)=>{n.d(t,{Z:()=>w});var r=n(30808),i=n(25773),a=n(27378),l=(n(23615),n(67468)),o=n(89046),s=n(36170),c=n(21546),d=n(76853),u=n(24044),h=n(93399);const p=["value","defaultValue","onClear","onChange","onSubmit","disabled","loading"];var m,g,f;const v=(0,l.ZP)(u.Z).withConfig({displayName:"Search__Root",componentId:"sc-5ub2b9-0"})([""]),b=e=>a.createElement(d.Z,(0,i.Z)({},e,{kind:d.Z.kinds.neutral}),m||(m=a.createElement(o.Z,{title:"Clear icon"}))),k=e=>a.createElement(d.Z,(0,i.Z)({},e,{kind:d.Z.kinds.neutral}),g||(g=a.createElement(s.Z,{title:"Submit icon"}))),Z=(0,a.forwardRef)(((e,t)=>{let{value:n,defaultValue:l,onClear:o,onChange:s,onSubmit:d,disabled:u=!1,loading:m=!1}=e,g=(0,r.Z)(e,p);const[Z,w]=(0,c.Z)({value:n,defaultValue:l}),y=(0,a.useCallback)((e=>{e.persist();const{value:t}=e.target;w(t),null==s||s(e,t)}),[s,w]),x=(0,a.useCallback)((e=>{e.persist(),u||(w(null),null==o||o(e))}),[u,o,w]),C=(0,a.useCallback)((e=>{e.persist(),u||null==d||d(e,Z)}),[u,d,Z]),E=(0,a.useCallback)((e=>{const{key:t}=e;"Enter"===t&&C(e)}),[C]);return a.createElement(v,(0,i.Z)({},g,{ref:t,value:Z||"",suffix:a.createElement(a.Fragment,null,Z&&a.createElement(b,{disabled:u,loading:m,onClick:x}),!m&&a.createElement(k,{disabled:u,onClick:C}),m&&(f||(f=a.createElement(h.Z,{title:"Loading icon"})))),disabled:u,onChange:y,onKeyDown:E}))}));Z.displayName="Search",Z.Style=v;const w=Z},21546:(e,t,n)=>{n.d(t,{Z:()=>i});var r=n(27378);const i=e=>{let{value:t,defaultValue:n,initialValue:i}=e;const{current:a}=r.useRef(void 0!==t),[l,o]=r.useState(n);return[a?t:null!=l?l:i,r.useCallback((e=>{a||o(e)}),[a])]}},36170:(e,t,n)=>{n.d(t,{Z:()=>p});var r,i=n(25773),a=n(30808),l=n(27378),o=n(23615),s=n.n(o),c=n(61421),d=n(1333);const u=["size","title","titleId"];function h(e){let{size:t=c.J.md,title:n,titleId:o}=e,s=(0,a.Z)(e,u);const h=c.d.get(t);return o=(0,d.Z)(o),l.createElement("svg",(0,i.Z)({width:h.width,height:h.height,viewBox:"0 0 24 24",xmlns:"http://www.w3.org/2000/svg",fill:"var(--custom-icon-color, var(--neutral-icon-high-emphasis))","aria-labelledby":o},s),n?l.createElement("title",{id:o},n):null,r||(r=l.createElement("path",{d:"M17.625 10.563a7.31 7.31 0 01-1.406 4.324l4.43 4.465c.456.421.456 1.16 0 1.582a1.084 1.084 0 01-1.583 0l-4.464-4.465c-1.196.914-2.707 1.406-4.29 1.406A7.307 7.307 0 013 10.562C3 6.556 6.27 3.25 10.313 3.25c4.007 0 7.312 3.305 7.312 7.313zm-7.313 5.062a5.02 5.02 0 004.36-2.531c.914-1.547.914-3.48 0-5.063-.914-1.547-2.567-2.531-4.36-2.531-1.828 0-3.48.984-4.394 2.531-.914 1.582-.914 3.516 0 5.063a5.035 5.035 0 004.394 2.531z"})))}h.sizes=c.J,h.propTypes={size:s().oneOf([h.sizes.xs,h.sizes.sm,h.sizes.md,h.sizes.lg,h.sizes.xl]),titleId:s().string,title:s().string.isRequired};const p=h},4498:(e,t,n)=>{n.r(t),n.d(t,{assets:()=>m,contentTitle:()=>h,default:()=>v,frontMatter:()=>u,metadata:()=>p,toc:()=>g});var r=n(25773),i=(n(27378),n(35318)),a=n(77515),l=n(88401),o=n(38e3),s=n(83789),c=n(67994),d=n(13966);const u={title:"Search",description:"Search is an input with a button on the right, which displays a result on the screen based on the information entered."},h=void 0,p={unversionedId:"components/search",id:"components/search",title:"Search",description:"Search is an input with a button on the right, which displays a result on the screen based on the information entered.",source:"@site/docs/components/search.md",sourceDirName:"components",slug:"/components/search",permalink:"/tangram-rebranding/en/docs/components/search",draft:!1,editUrl:"https://github.com/ResultadosDigitais/tangram/edit/next/docusaurus/docs/components/search.md",tags:[],version:"current",frontMatter:{title:"Search",description:"Search is an input with a button on the right, which displays a result on the screen based on the information entered."},sidebar:"mySidebar",previous:{title:"Radio",permalink:"/tangram-rebranding/en/docs/components/radio"},next:{title:"Select",permalink:"/tangram-rebranding/en/docs/components/select"}},m={},g=[{value:"Positioning",id:"search-position",level:2},{value:"Search interactions",id:"search-interactions",level:2},{value:"With confirmation",id:"search-confirmation",level:3},{value:"Waiting",id:"waiting-search",level:3},{value:"Field cleaning",id:"clear-search",level:3},{value:"Feedback",id:"feedback",level:2}],f={toc:g};function v(e){let{components:t,...u}=e;return(0,i.kt)("wrapper",(0,r.Z)({},f,u,{components:t,mdxType:"MDXLayout"}),(0,i.kt)(a.Z,{current:"docs",name:"search",mdxType:"ComponentTab"}),(0,i.kt)("p",null,(0,i.kt)("inlineCode",{parentName:"p"},"Search")," is an input with a button on the right, which displays a result on the screen based on the information entered. The search can happen with each key typed, when pressing enter or when clicking on the button with the magnifying glass, according to the needs."),(0,i.kt)("p",null,(0,i.kt)("inlineCode",{parentName:"p"},"Search")," can be used to filter data in lists or tables."),(0,i.kt)("p",null,"Search field application patterns can be seen on the page of ",(0,i.kt)(l.Z,{href:"../../../docs/patterns/search/",mdxType:"Link"},"Search Patterns")),(0,i.kt)(o.Z,{mdxType:"CardGrid"},(0,i.kt)(o.D,{mdxType:"CardGridItem"},(0,i.kt)(d.Z,{name:"search",placeholder:"Search...",mdxType:"Search"}))),(0,i.kt)("h2",{id:"search-position"},"Positioning"),(0,i.kt)("p",null,"By default, the search field should be used on the left, above the list of items and below the ",(0,i.kt)("inlineCode",{parentName:"p"},"Pageheader"),"."),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:n(23578).Z,alt:"Positioning the search field on screens"})),(0,i.kt)("h2",{id:"search-interactions"},"Search interactions"),(0,i.kt)("h3",{id:"search-confirmation"},"With confirmation"),(0,i.kt)("p",null,'The search can be performed using the "enter" key or by clicking on the "magnifying glass" button, available in the field itself.'),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:n(74500).Z,alt:"Search by click on the magnifying glass to confirm"})),(0,i.kt)("h3",{id:"waiting-search"},"Waiting"),(0,i.kt)("p",null,"Allows you to indicate that the system is searching for information."),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:n(30901).Z,alt:"Real-time search with hold"})),(0,i.kt)("h3",{id:"clear-search"},"Field cleaning"),(0,i.kt)("p",null,'After typing a term in the search, a button will be displayed with "x" inside the field, to remove the typed term just click on the "x".'),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:n(67125).Z,alt:"Clear the search field by clicking the X"})),(0,i.kt)("h2",{id:"feedback"},"Feedback"),(0,i.kt)(c.Z,{mdxType:"FeedbackBlock"}))}v.isMDXComponent=!0},67125:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n.p+"assets/images/clear-search-en-e75456760855aca210bc60e80fba6aa7.png"},74500:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n.p+"assets/images/search-confirmation-en-889b45a80e13046667c3ebb59ee91fb4.png"},23578:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n.p+"assets/images/search-position-en-4c6f87299d2a4ed895e3e04bae32e533.png"},30901:(e,t,n)=>{n.d(t,{Z:()=>r});const r=n.p+"assets/images/waiting-search-en-494761b77683aba3986fe981e75a491c.png"}}]);

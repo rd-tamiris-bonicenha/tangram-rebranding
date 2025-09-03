@@ -1,0 +1,85 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9245],{83789:(e,a,t)=>{t.d(a,{Z:()=>h});var r=t(27378),i=t(67468),n=t(33099);const o=i.ZP.div`
+  border: 1px solid var(--neutral-border);
+  border-top-left-radius: var(--border-radius-rounded);
+  border-top-right-radius: var(--border-radius-rounded);
+  margin-bottom: var(--size-spacing-09);
+  overflow: hidden;
+
+  ${e=>{let{$overflowVisible:a}=e;return a&&i.iv`
+      overflow: visible;
+    `}}
+`,l=i.ZP.div`
+  align-items: center;
+  background: var(--neutral-surface-low-emphasis);
+  display: flex;
+  padding: 0.5rem 1rem;
+`,s=i.ZP.div`
+  white-space: nowrap;
+`,c=i.ZP.div`
+  flex: 1 0;
+  margin: 0 1rem 0 0.5rem;
+  border-radius: 12.5px;
+  background-color: #fff;
+  color: #666;
+  padding: 5px 15px;
+  font: 400 13px Arial;
+  user-select: none;
+`,d=i.ZP.div`
+  margin-left: auto;
+`,u=i.ZP.span`
+  margin-right: 6px;
+  margin-top: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+`,p=i.ZP.span`
+  width: 17px;
+  height: 3px;
+  background-color: #aaa;
+  margin: 3px 0;
+  display: block;
+`,m=i.ZP.div`
+  margin-bottom: -6px;
+  ${e=>{let{$padding:a}=e;return a&&i.iv`
+      padding: var(--size-spacing-04);
+    `}};
+`;const h=function(e){let{children:a,minHeight:t,url:i,bodyPadding:h,overflowVisible:g}=e;return r.createElement(n.Z,null,(()=>r.createElement(o,{style:{minHeight:t},$overflowVisible:g},r.createElement(l,null,r.createElement(s,null,r.createElement(u,{style:{background:"#f25f58"}}),r.createElement(u,{style:{background:"#fbbe3c"}}),r.createElement(u,{style:{background:"#58cb42"}})),r.createElement(c,null,i),r.createElement(d,null,r.createElement("div",null,r.createElement(p,null),r.createElement(p,null),r.createElement(p,null)))),r.createElement(m,{$padding:!!h},a))))}},38e3:(e,a,t)=>{t.d(a,{D:()=>u,Z:()=>s});var r=t(25773),i=t(27378),n=t(67468),o=t(33099);const l=n.ZP.div`
+  margin-bottom: var(--size-spacing-09);
+
+  & > * {
+    margin-bottom: var(--size-spacing-05);
+  }
+
+  ${e=>{let{$columns:a}=e;return a>=2&&n.iv`
+      display: grid;
+      column-gap: var(--size-spacing-05);
+      row-gap: var(--size-spacing-05);
+      grid-template-columns: repeat(${a}, 1fr);
+
+      & > * {
+        margin-bottom: 0;
+      }
+    `}}
+`;const s=function(e){let{children:a,columns:t=1,...n}=e;return i.createElement(o.Z,null,(()=>i.createElement(l,(0,r.Z)({$columns:t},n),a)))};var c=t(74904);const d=(0,n.ZP)(c.Z)`
+  height: 100%;
+
+  p {
+    &:only-child,
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ${e=>{let{$featured:a}=e;return a&&n.iv`
+      border-color: var(--highlight-border);
+    `}}
+
+  ${e=>{let{$centered:a}=e;return a&&n.iv`
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    `}}
+`;const u=function(e){let{children:a,featured:t=!1,centered:r=!1,className:n}=e;return i.createElement(d,{$featured:t,$centered:r,className:n},a)}},88401:(e,a,t)=>{t.d(a,{Z:()=>l});var r=t(25773),i=t(27378),n=t(81884),o=t(59536);function l(e){let{children:a,...t}=e;return i.createElement(o.Z,(0,r.Z)({as:n.Z},t),a)}},59435:(e,a,t)=>{t.d(a,{Z:()=>r});const r=t(27378).createContext({})},68746:(e,a,t)=>{t.d(a,{Z:()=>n});var r=t(27378),i=t(59435);const n=()=>r.useContext(i.Z)},22015:(e,a,t)=>{t.d(a,{Z:()=>m});var r=t(25773),i=t(30808),n=t(27378),o=(t(23615),t(67468)),l=t(24758),s=t(51951);const c=["children","lineBreak","gap","inline","verticalAlign","horizontalAlign","as"];function d(e){return"string"==typeof e?e:"var(--size-spacing-".concat(e.toString().padStart(2,"0"),")")}const u=o.ZP.div.withConfig({displayName:"InlineGroup__Root",componentId:"sc-1n0xm5v-0"})(["display:flex;flex-direction:row;gap:",";"," ",";"," ",""],(e=>{let{$gap:a}=e;return Array.isArray(a)?a.map(d).join(" "):d(a)}),(e=>{let{$inline:a}=e;return a&&(0,o.iv)(["display:inline-flex;"])}),(e=>{let{$horizontalAlign:a}=e;return a&&(0,o.iv)(["justify-content:",";"],a)}),(e=>{let{$verticalAlign:a}=e;return a&&(0,o.iv)(["align-items:",";"],a)}),(e=>{let{$lineBreak:a}=e;return a&&(0,o.iv)(["flex-wrap:wrap;"])})),p=(0,n.forwardRef)(((e,a)=>{let{children:t,lineBreak:o=!1,gap:l="var(--size-spacing-02)",inline:s=!1,verticalAlign:d=p.verticalAlignments.top,horizontalAlign:m=p.horizontalAlignments.left,as:h="div"}=e,g=(0,i.Z)(e,c);return n.createElement(u,(0,r.Z)({ref:a,as:h,$gap:l,$inline:s,$lineBreak:o,$horizontalAlign:m,$verticalAlign:d},g),t)}));p.displayName="InlineGroup",p.Style=u,p.Item=s.Z,p.horizontalAlignments=l.T,p.verticalAlignments=l.n;const m=p},51951:(e,a,t)=>{t.d(a,{Z:()=>u});var r=t(25773),i=t(30808),n=t(27378),o=(t(23615),t(67468)),l=t(24758);const s=["children","verticalAlign","fluid","as"],c=o.ZP.div.withConfig({displayName:"InlineGroupItem__Root",componentId:"sc-1r2n1hz-0"})(["",";",""],(e=>{let{$verticalAlign:a}=e;return a&&(0,o.iv)(["align-self:",";"],a)}),(e=>{let{$fluid:a}=e;return a&&(0,o.iv)(["flex:1;min-width:0;"])})),d=(0,n.forwardRef)(((e,a)=>{let{children:t,verticalAlign:o,fluid:l=!1,as:d="div"}=e,u=(0,i.Z)(e,s);return n.createElement(c,(0,r.Z)({ref:a,as:d,$verticalAlign:o,$fluid:l},u),t)}));d.displayName="InlineGroupItem",d.Style=c,d.verticalAlignments=l.n;const u=d},24758:(e,a,t)=>{t.d(a,{T:()=>r,n:()=>i});const r={left:"flex-start",center:"center",right:"flex-end"},i={top:"start",center:"center",bottom:"end",baseline:"baseline",stretch:"stretch"}},24044:(e,a,t)=>{t.d(a,{Z:()=>m});var r=t(25773),i=t(30808),n=t(27378),o=(t(23615),t(67468)),l=t(44573),s=t(68746),c=t(12681);const d=["rootRef","className","style","value","defaultValue","prefix","suffix","disabled","required","error","success"],u=(0,o.ZP)(c.Z).withConfig({displayName:"Input__Root",componentId:"sc-2oktpa-0"})([""]),p=(0,n.forwardRef)(((e,a)=>{let{rootRef:t,className:o,style:c,value:p,defaultValue:m,prefix:h,suffix:g,disabled:v=!1,required:b=!1,error:f=!1,success:Z=!1}=e,x=(0,i.Z)(e,d);const k=(0,n.useRef)(null),w=(0,s.Z)(),y=w.required||b,C=w.success||Z,E=w.error||f,z=Object.assign({},C||E?{"aria-invalid":E||!C}:{}),S=(0,n.useCallback)((()=>{k.current.focus()}),[]);return n.createElement(u,{ref:t,className:o,style:c,disabled:v,prefix:h,suffix:g,onClick:S},n.createElement("input",(0,r.Z)({},x,{ref:(0,l.Z)([k,a]),"aria-required":y,disabled:v,value:p,defaultValue:m},z)))}));p.displayName="Input",p.Style=u;const m=p},12681:(e,a,t)=>{t.d(a,{Z:()=>v});var r=t(25773),i=t(30808),n=t(27378),o=t(67468),l=t(48981),s=t(25881),c=t(93399),d=t(22015);const u=["disabled","prefix","suffix","children"],p=(0,o.ZP)(d.Z).attrs({gap:1,verticalAlign:d.Z.verticalAlignments.center}).withConfig({displayName:"InputControl__Prefix",componentId:"sc-1bx7dgp-0"})(["height:calc(var(--input-height) - 2px);> svg{--custom-icon-color:var(--input-icon-color);}","{"," --focus-outline-offset:calc(-1 * var(--size-spacing-01) - 1px);&:hover,&:focus,&:active{&:not(:disabled),&:not([disabled]),&:not([aria-disabled='true']){background-color:transparent;}}}"],s.Z.Style,s.Z.SmallStyle),m=(0,o.ZP)(p).withConfig({displayName:"InputControl__Suffix",componentId:"sc-1bx7dgp-1"})(["",":last-child,",":last-child{margin-right:calc(-1 * (var(--size-spacing-03) - var(--size-spacing-01)));}"],s.Z.Style,c.Z.Style),h=o.ZP.div.withConfig({displayName:"InputControl__Root",componentId:"sc-1bx7dgp-2"})(["--focus-border-radius:var(--border-radius-sm);--input-height:",";--input-border-color:var(--neutral-border-interactive);--input-background-color:var(--neutral-surface);--input-text-color:var(--neutral-text-low-emphasis);--input-value-color:var(--neutral-text-high-emphasis);--input-placeholder-color:var(--neutral-text-low-emphasis);--input-icon-color:var(--neutral-icon-low-emphasis);--input-line-height:calc( var(--input-height) - 2px - (2 * var(--size-spacing-02)) );"," display:flex;gap:var(--size-spacing-02);align-items:center;height:var(--input-height);width:100%;border-radius:var(--border-radius-sm);border:1px solid var(--input-border-color);padding:0 var(--size-spacing-03);color:var(--neutral-text-low-emphasis);background-color:var(--input-background-color);box-shadow:none;&,> input,> input::placeholder,> textarea,> textarea::placeholder{font:var(--text-md-regular);line-height:var(--input-line-height);letter-spacing:-0.01em;}input{height:var(--input-line-height);}input,textarea{display:block;flex:1;margin:0;min-width:0;border:0;padding:0;outline:0;color:var(--input-value-color);background-color:transparent;&::placeholder{color:var(--input-placeholder-color);}::-ms-clear{display:none;width:0;height:0;}::-ms-reveal{display:none;width:0;height:0;}::-webkit-search-decoration,::-webkit-search-cancel-button,::-webkit-search-results-button,::-webkit-search-results-decoration{display:none;}}&:hover,&:focus-within{--input-border-color:var(--neutral-border-interactive-hover);}&[aria-invalid='true'],&:has(*[aria-invalid='true']){&,&:hover{--input-border-color:var(--danger-border);}&:focus-within,&:hover:focus-within{--input-border-color:var(--neutral-border-interactive-hover);}}&[aria-invalid='false'],&:has(*[aria-invalid='false']){&,&:hover{--input-border-color:var(--success-border);}&:focus-within,&:hover:focus-within{--input-border-color:var(--neutral-border-interactive-hover);}}&[aria-disabled='true']{--input-background-color:var(--neutral-surface-disabled);&,&:hover,&:focus,&:focus-within,&:hover:focus,&:hover:focus-within{--input-border-color:var(--neutral-border-interactive-disabled);}}"],"40px",l.Z),g=(0,n.forwardRef)(((e,a)=>{let{disabled:t,prefix:o,suffix:l,children:s}=e,c=(0,i.Z)(e,u);return n.createElement(h,(0,r.Z)({},c,{ref:a,"aria-disabled":t}),o&&n.createElement(p,null,o),s,l&&n.createElement(m,null,l))}));g.displayName="InputControl",g.Style=h;const v=g},13966:(e,a,t)=>{t.d(a,{Z:()=>k});var r=t(30808),i=t(25773),n=t(27378),o=(t(23615),t(67468)),l=t(89046),s=t(36170),c=t(21546),d=t(76853),u=t(24044),p=t(93399);const m=["value","defaultValue","onClear","onChange","onSubmit","disabled","loading"];var h,g,v;const b=(0,o.ZP)(u.Z).withConfig({displayName:"Search__Root",componentId:"sc-5ub2b9-0"})([""]),f=e=>n.createElement(d.Z,(0,i.Z)({},e,{kind:d.Z.kinds.neutral}),h||(h=n.createElement(l.Z,{title:"Clear icon"}))),Z=e=>n.createElement(d.Z,(0,i.Z)({},e,{kind:d.Z.kinds.neutral}),g||(g=n.createElement(s.Z,{title:"Submit icon"}))),x=(0,n.forwardRef)(((e,a)=>{let{value:t,defaultValue:o,onClear:l,onChange:s,onSubmit:d,disabled:u=!1,loading:h=!1}=e,g=(0,r.Z)(e,m);const[x,k]=(0,c.Z)({value:t,defaultValue:o}),w=(0,n.useCallback)((e=>{e.persist();const{value:a}=e.target;k(a),null==s||s(e,a)}),[s,k]),y=(0,n.useCallback)((e=>{e.persist(),u||(k(null),null==l||l(e))}),[u,l,k]),C=(0,n.useCallback)((e=>{e.persist(),u||null==d||d(e,x)}),[u,d,x]),E=(0,n.useCallback)((e=>{const{key:a}=e;"Enter"===a&&C(e)}),[C]);return n.createElement(b,(0,i.Z)({},g,{ref:a,value:x||"",suffix:n.createElement(n.Fragment,null,x&&n.createElement(f,{disabled:u,loading:h,onClick:y}),!h&&n.createElement(Z,{disabled:u,onClick:C}),h&&(v||(v=n.createElement(p.Z,{title:"Loading icon"})))),disabled:u,onChange:w,onKeyDown:E}))}));x.displayName="Search",x.Style=b;const k=x},21546:(e,a,t)=>{t.d(a,{Z:()=>i});var r=t(27378);const i=e=>{let{value:a,defaultValue:t,initialValue:i}=e;const{current:n}=r.useRef(void 0!==a),[o,l]=r.useState(t);return[n?a:null!=o?o:i,r.useCallback((e=>{n||l(e)}),[n])]}},36170:(e,a,t)=>{t.d(a,{Z:()=>m});var r,i=t(25773),n=t(30808),o=t(27378),l=t(23615),s=t.n(l),c=t(61421),d=t(1333);const u=["size","title","titleId"];function p(e){let{size:a=c.J.md,title:t,titleId:l}=e,s=(0,n.Z)(e,u);const p=c.d.get(a);return l=(0,d.Z)(l),o.createElement("svg",(0,i.Z)({width:p.width,height:p.height,viewBox:"0 0 24 24",xmlns:"http://www.w3.org/2000/svg",fill:"var(--custom-icon-color, var(--neutral-icon-high-emphasis))","aria-labelledby":l},s),t?o.createElement("title",{id:l},t):null,r||(r=o.createElement("path",{d:"M17.625 10.563a7.31 7.31 0 01-1.406 4.324l4.43 4.465c.456.421.456 1.16 0 1.582a1.084 1.084 0 01-1.583 0l-4.464-4.465c-1.196.914-2.707 1.406-4.29 1.406A7.307 7.307 0 013 10.562C3 6.556 6.27 3.25 10.313 3.25c4.007 0 7.312 3.305 7.312 7.313zm-7.313 5.062a5.02 5.02 0 004.36-2.531c.914-1.547.914-3.48 0-5.063-.914-1.547-2.567-2.531-4.36-2.531-1.828 0-3.48.984-4.394 2.531-.914 1.582-.914 3.516 0 5.063a5.035 5.035 0 004.394 2.531z"})))}p.sizes=c.J,p.propTypes={size:s().oneOf([p.sizes.xs,p.sizes.sm,p.sizes.md,p.sizes.lg,p.sizes.xl]),titleId:s().string,title:s().string.isRequired};const m=p},18076:(e,a,t)=>{t.r(a),t.d(a,{assets:()=>h,contentTitle:()=>p,default:()=>b,frontMatter:()=>u,metadata:()=>m,toc:()=>g});var r=t(25773),i=(t(27378),t(35318)),n=t(77515),o=t(88401),l=t(38e3),s=t(83789),c=t(67994),d=t(13966);const u={title:"Search",description:"O Search \xe9 um input com um bot\xe3o \xe0 direita, que exibe um resultado na tela baseado na informa\xe7\xe3o digitada."},p=void 0,m={unversionedId:"components/search",id:"components/search",title:"Search",description:"O Search \xe9 um input com um bot\xe3o \xe0 direita, que exibe um resultado na tela baseado na informa\xe7\xe3o digitada.",source:"@site/i18n/pt-BR/docusaurus-plugin-content-docs/current/components/search.md",sourceDirName:"components",slug:"/components/search",permalink:"/tangram-rebranding/docs/components/search",draft:!1,editUrl:"https://github.com/ResultadosDigitais/tangram/edit/next/docusaurus/docs/components/search.md",tags:[],version:"current",frontMatter:{title:"Search",description:"O Search \xe9 um input com um bot\xe3o \xe0 direita, que exibe um resultado na tela baseado na informa\xe7\xe3o digitada."},sidebar:"mySidebar",previous:{title:"Radio",permalink:"/tangram-rebranding/docs/components/radio"},next:{title:"Select",permalink:"/tangram-rebranding/docs/components/select"}},h={},g=[{value:"Posicionamento",id:"search-position",level:2},{value:"Intera\xe7\xf5es de busca",id:"search-interactions",level:2},{value:"Com confirma\xe7\xe3o",id:"search-confirmation",level:3},{value:"Com espera",id:"waiting-search",level:3},{value:"Limpeza de campo",id:"clear-search",level:3},{value:"Feedback",id:"feedback",level:2}],v={toc:g};function b(e){let{components:a,...u}=e;return(0,i.kt)("wrapper",(0,r.Z)({},v,u,{components:a,mdxType:"MDXLayout"}),(0,i.kt)(n.Z,{current:"docs",name:"search",mdxType:"ComponentTab"}),(0,i.kt)("p",null,"O ",(0,i.kt)("inlineCode",{parentName:"p"},"Search")," \xe9 um input com um bot\xe3o \xe0 direita, que exibe um resultado na tela baseado na informa\xe7\xe3o digitada. A busca pode acontecer a cada tecla digitada, ao pressionar enter ou ao clicar no bot\xe3o com a lupa, de acordo com as necessidades."),(0,i.kt)("p",null,"O ",(0,i.kt)("inlineCode",{parentName:"p"},"Search")," pode ser usado para filtrar dados em listas ou tabelas."),(0,i.kt)("p",null,"Padr\xf5es de aplica\xe7\xf5es do campo de busca podem ser vistos na p\xe1gina de ",(0,i.kt)(o.Z,{href:"../../../docs/patterns/search/",mdxType:"Link"},"Padr\xf5es de Busca")),(0,i.kt)(l.Z,{mdxType:"CardGrid"},(0,i.kt)(l.D,{mdxType:"CardGridItem"},(0,i.kt)(d.Z,{name:"search",placeholder:"Buscar...",mdxType:"Search"}))),(0,i.kt)("h2",{id:"search-position"},"Posicionamento"),(0,i.kt)("p",null,"Por padr\xe3o, o campo de busca deve ser usado \xe0 esquerda, acima da lista de itens e abaixo do ",(0,i.kt)("inlineCode",{parentName:"p"},"Pageheader"),"."),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:t(81817).Z,alt:"Posicionamento do campo de busca em telas"})),(0,i.kt)("h2",{id:"search-interactions"},"Intera\xe7\xf5es de busca"),(0,i.kt)("h3",{id:"search-confirmation"},"Com confirma\xe7\xe3o"),(0,i.kt)("p",null,'A busca pode ser realizada usando a tecla "enter" ou clicando no bot\xe3o de "lupa", dispon\xedvel no pr\xf3prio campo.'),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:t(88619).Z,alt:"Busca por click na lupa para confirmar"})),(0,i.kt)("h3",{id:"waiting-search"},"Com espera"),(0,i.kt)("p",null,"Permite indicar que o sistema est\xe1 executando a busca das informa\xe7\xf5es."),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:t(32510).Z,alt:"Busca em tempo real, com espera"})),(0,i.kt)("h3",{id:"clear-search"},"Limpeza de campo"),(0,i.kt)("p",null,'Ap\xf3s digitar um termo na busca, ser\xe1 exibido um bot\xe3o com "x" dentro do campo, para remover o termo digitado \xe9 s\xf3 clicar no "x".'),(0,i.kt)(s.Z,{mdxType:"BrowserWindow"},(0,i.kt)("img",{src:t(86773).Z,alt:"Limpar o campo de busca clicando no X"})),(0,i.kt)("h2",{id:"feedback"},"Feedback"),(0,i.kt)(c.Z,{mdxType:"FeedbackBlock"}))}b.isMDXComponent=!0},86773:(e,a,t)=>{t.d(a,{Z:()=>r});const r=t.p+"assets/images/clear-search-pt-br-bd159f28ec0331eaa8cc81eab9d481f5.png"},88619:(e,a,t)=>{t.d(a,{Z:()=>r});const r=t.p+"assets/images/search-confirmation-pt-br-65eb14e407bb09b66325333d850a4d53.png"},81817:(e,a,t)=>{t.d(a,{Z:()=>r});const r=t.p+"assets/images/search-position-pt-br-3f8458a468498903dbc301e9802860ee.png"},32510:(e,a,t)=>{t.d(a,{Z:()=>r});const r=t.p+"assets/images/waiting-search-pt-br-01ce86ee5756ec89fb1c170da84d23cd.png"}}]);
